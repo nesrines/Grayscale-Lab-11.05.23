@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;}
+header{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 22px 340px;}
+header nav a{
+    color: #ffffff80;}
+header nav .left{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.0625em;
+    padding: 8px 0;
+    margin-right: 16px;}
+header nav .right a{
+    font-size: 16px;
+    padding: 32px 24px;
+    letter-spacing: 0.0625rem;}
+header .center{
+    margin: 16.5em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;}
+header .center h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 6.5rem;
+    font-weight: lighter;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+    color: #00000000;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));}
+header .center h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff80;
+    margin: 8px 132.5px 48px;
+    max-width: 30rem;
+    letter-spacing: 0.0625rem;}
+header .center a{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12.8px;
+    color: #ffffff;
+    background-color: #64a19d;
+    padding: 20px 32px;
+    border-radius: 0.375rem;
+    letter-spacing: 0.15rem;}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    padding: 160px 291.5px 0;
+}
+#about h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+#about p{
+    font-size: 16px;
+    color: #ffffff80;
+    margin-bottom: 80px;
+    letter-spacing: 0.0625rem;
+}
+#about p a
+{
+    color: #64a19d;
+}
